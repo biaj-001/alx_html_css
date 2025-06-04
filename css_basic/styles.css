@@ -2,14 +2,14 @@ body{
      display: flex;
      flex-direction: column;
      text-align: center;
+     background-image: linear-gradient(rgb(155, 155, 240),pink);
+      
 }
 main{
      display: flex;
      flex-direction: row;
      flex: auto;
-     flex: 2;
-     overflow-y: auto;
-
+    
 }
 article{
      flex: 2;
@@ -18,4 +18,15 @@ article{
 aside{
      flex: 1;
      overflow-y: auto;
+}
+table{
+    box-shadow: 0 0 10px grey;
+}
+table,th,td {
+    border: 1px solid white;
+    padding: 10px 60px;
+
+}
+th{
+    background-color: aliceblue;
 }
